@@ -3,7 +3,7 @@ app = Flask(__name__)
  
 @app.route("/")
 def hello():
-    return '<form action="/echo/" method="GET"><input name="text"><input type="submit" value="Polly"></form>'
+    return '<form action="/polly/" method="GET"><input name="text"><input type="submit" value="Polly"></form>'
  
 @app.route("/orders/")
 def orderup():
